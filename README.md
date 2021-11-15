@@ -14,3 +14,6 @@ XXX-XXX-XXXX - 12 characters
 The number should be a US number. It should not accepts non-numerical symbols, except parantheses and dashes. 
 
 
+# Note
+Learned Tip from this project:  
+If you want text to appear on different lines, either end the line with two spaces OR write br tag. 
