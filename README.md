@@ -1,19 +1,24 @@
-This algorithm detects the validity of a phone number. 
+# VERIFY US PHONE NUMBERS 
 
-# Valid Phone Number Formats
-XXXXXXXXXX - 10 characters  
-XXX-XXX-XXXX - 12 characters  
-XXX-XXX-XXXX - 12 characters  
-(XXX)XXX-XXXX - 13 characters  
-1 XXX XXX XXXX -14 characters  
-1 XXX-XXX-XXXX - 14 characters  
-1(XXX)XXX-XXXX - 14 characters  
-1 (XXX) XXX XXXX - 16 characters  
+## INTRODUCTION
+This is a Javascript algorithm that will verify that the provided number is a valid US phone number. It will be presented as a function that takes any string of characters, and it will return a boolean value that represents the results of the verification process. The following subsection will present valid numbers that the algorithm will accept:
 
-# Other Conditions
-The number should be a US number. It should not accepts non-numerical symbols, except parantheses and dashes. 
+### VALID PHONE NUMBERS
+XXXXXXXXXX
+XXX-XXX-XXXX 
+XXX-XXX-XXXX 
+(XXX)XXX-XXXX 
+1 XXX XXX XXXX 
+1 XXX-XXX-XXXX 
+1(XXX)XXX-XXXX 
+1 (XXX) XXX XXXX 
 
-
-# Note
-Learned Tip from this project:  
-If you want text to appear on different lines, either end the line with two spaces OR write br tag. 
+## TECHNOLOGY 
+Javascript
+* split()
+* join()
+* every()
+* if , if else , if else if
+* for loops
+* parseInt()
+* Number.isInteger()
